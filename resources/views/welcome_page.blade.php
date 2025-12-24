@@ -6,11 +6,11 @@
     <title>Мой магазин</title>
 </head>
 <body>
-    <h1>Добро пожаловать в мой магазин1!</h1>
+    <h1>Добро пожаловать в мой магазин</h1>
     <p>Это моя первая страница на Laravel!</p>
 <ul>
     @foreach($items as $item)
-        <li>{{ $item->name }} — {{ $item->price }} руб.</li>
+        <li>{{ $item->name }} — {{ $item->price }} грн.</li>
     @endforeach
 </ul>
 </body>
